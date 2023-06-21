@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include process_repost_entries *.css
+recursive-include process_repost_entries *.csv
+recursive-include process_repost_entries *.html
+recursive-include process_repost_entries *.ico
+recursive-include process_repost_entries *.js
+recursive-include process_repost_entries *.json
+recursive-include process_repost_entries *.md
+recursive-include process_repost_entries *.png
+recursive-include process_repost_entries *.py
+recursive-include process_repost_entries *.svg
+recursive-include process_repost_entries *.txt
+recursive-exclude process_repost_entries *.pyc
